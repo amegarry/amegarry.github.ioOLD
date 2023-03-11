@@ -1,0 +1,130 @@
+/*Display all elements with class "inline-block" as inline-block*/
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*Logo container*/
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+/*Navbar*/
+nav {
+    width: 73%;
+    padding: 1%;
+    float: right;
+    background-color: bisque;
+}
+
+/*Navbar content*/
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+nav li{
+    padding: 0 10px 0 20px;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 30px;
+}
+
+/*UX Skills section*/
+.mySkills {
+    display: flex;
+    padding: 60px 30px;
+}
+
+.flexContainer {
+    width: 33%;
+    padding: 25px;
+}
+
+/*Work section*/
+.myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #EBEBEB;
+}
+
+/*Work section grid*/
+
+.workGrid {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "tranquilListImg tranquilListCaseStudy"
+    "mnDVSImg mnDVSCaseStudy"
+    "tripJarImg tripJarCaseStudy";
+}
+
+.workGrid img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*Case studies and images*/
+.tranquilListImg {
+    grid-area: tranquilListImg;
+}
+
+.mnDVSImg {
+    grid-area: mnDVSImg;
+}
+
+.tripJarImg {
+    grid-area: tripJarImg;
+}
+
+.tranquilListImg, .mnDVSImg, .tripJarImg, .tranquiListCaseStudy, .mnDVSCaseStudy, .tripJarCaseStudy {
+    padding: 80px;
+}
+
+.tranquilListCaseStudy {
+    grid-area: tranquilListCaseStudy;
+}
+
+.mnDVSCaseStudy {
+    grid-area: mnDVSCaseStudy;
+}
+
+.tripJarCaseStudy {
+    grid-area: tripJarCaseStudy;
+}
+
+/*Footer nav*/
+footer {
+    background-color: #373738;
+    padding: 1%;
+    padding-left: 40%;
+    color: white;
+}
+
+/*Footer nav content*/
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer li {
+    padding: 0 10px 0 20px;
+}
