@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Class Track</title>
+            <!--Required meta tags-->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <!--Boostrap CSS reference-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="css/index.css">
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <header>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <a href="reviewAlert.html"><img src="/Images/unread notification.png"></a>
+            <h2 class="createNew">Create New Alert</h2>
+          <img src="images/menu icon.svg">
+        </div>
+      </div>
+    </header>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="./JS/index.js"></script>
+    <section class="newAlertWindow">
+      <div class="alertDetails">
+        <h5 class="display-5">Please enter details:</h5>
+        <div class="alertSelect">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>-- Select Class --</option>
+              <option>4th Hour / Biology</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>-- Select Student --</option>
+              <option>Sally Belly</option>
+            </select>
+          </div>
+        </div>
+      <div class="alertCategory">
+        <h5 class="display-5">Select Alert category:</h5>
+        <div class="flex-grid-thirds">
+          <div class="col">
+            <button>
+              <img src="Images/Altercation.png">
+            </button>
+            <p>Altercation</p>
+          </div>
+          <div class="col">
+            <button>
+              <img src="Images/councler c.png">
+            </button>
+            <p>Counselor</p>
+          </div>
+          <div class="col">
+            <button>
+              <img src="Images/emgli.png">
+            </button>
+            <p>English Learner</p>
+          </div>
+      </div>
+        <div class="flex-grid-thirds">
+          <div class="col">
+            <button>
+              <img src="Images/med.png">
+            </button>
+            <p>Nurse/Medical</p>
+          </div>
+          <div class="col">
+            <button>
+              <img src="Images/special education.png">
+            </button>
+            <p>Special Education</p>
+          </div>
+          <div class="col">
+            <button>
+              <img src="Images/other.png">
+            </button>
+            <p>Other</p>
+          </div>
+        </div>
+        <div class="alertAdditionalInfo">
+          <div class="alertTextBox">
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"> Enter additional information...</textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="confirmReviewBtn">
+      <a href="reviewAlert.html">
+        <button class="returnToHome">Confirm and Review</button>
+      </a>
+    </div>
+  </body>
+</html>

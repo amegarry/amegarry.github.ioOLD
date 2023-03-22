@@ -1,0 +1,457 @@
+*{
+    margin: 10 px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Headers*/
+.jumbotron {
+    background-color: #487A6C;
+    color: white;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  font-size: 20pt;
+}
+
+/*Header in jumbotron*/
+.display-5 {
+    text-align: center;
+}
+
+/*Welcome Felin Kale text*/
+.welcome {
+    text-align: center;
+    font-size: 20pt;
+}
+
+/*School news*/
+.card {
+    max-width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt;
+    box-shadow: 10px 10px 5px lightgray;
+    border-color: white;
+}
+
+/*Homepage buttons - 1st row*/
+.buttonGroup1 {
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Homepage buttons - 2nd row*/
+.buttonGroup2 {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Homepage buttons styling*/
+.linkButtons button {
+    background-color: #487A6C;
+    color: white;
+    border: none;
+    padding: 40px 20px;
+    height: 146px;
+    width: 146px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 100%;
+  }
+  
+/*Homepage buttons interaction*/
+.linkButtons button:active {
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
+}
+
+.linkButtons p {
+  padding: 10px;
+}
+
+.iosHeader{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainNavigationMenu{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+/*New Alert body section*/
+.newAlertWindow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  text-align: center;
+  background-color: #C6D9D3;
+  border-radius: 25px;
+}
+
+.alertDetails .display-5 {
+  padding: 20px;
+}
+
+/*Select Class and Select Student dropdowns*/
+.alertDetails .form-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.alertDetails select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  border-radius: 8px;
+}
+
+/*Select Class and Select Student buttons*/
+.alertDetails button {
+  border: none;
+  background-color: #C6D9D3
+}
+
+.classBtn {
+  padding: 10px;
+}
+
+.studentBtn {
+  padding: 10px;
+}
+
+/*Alert category icon buttons*/
+.alertCategory button {
+  background-color: white;
+  color: black;
+  border: none;
+  height: 66px;
+  width: 66px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.alertCategory button:active {
+  background-color: #487A6C;
+  color: white;
+}
+
+.alertCategory button:focus{
+  background-color: #487A6C;
+  color: white;
+}
+
+/*Flex grid of alert category icons*/
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.flex-grid-thirds .col {
+  width: 62%;
+}
+
+.col button:active {
+  background-color: #487A6C;
+  color: white;
+}
+
+.col button:focus{
+  background-color: #487A6C;
+  color: white;
+}
+
+/*New alert text box*/
+.alertTextBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.alertAdditionalInfo textarea {
+  font-size: 10pt;
+}
+
+.unreadNotifications {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.existingAlerts {
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 60%;
+  font-weight: bold;
+}
+
+.existingAlertsImage {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.returnToHome {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+  background-color: #487A6C;
+  text-shadow: #050505;
+  border: none;
+  padding: 10px;
+  width: 221px;
+  margin-bottom: 30px;
+  box-shadow: 2px 3px 2px lightgray;
+}
+
+.createNew {
+  text-align: center;
+}
+
+.returnToEdit{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: black;
+  background-color: #BDCFCA;
+  border: none;
+  padding: 10px;
+  width: 221px;
+  margin-bottom: 30px;
+  box-shadow: 2px 3px 2px lightgray;
+}
+
+.alertCard{
+    max-width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BDCFCA;
+    border-radius: 25px;
+    box-shadow: 2px 3px 2px lightgray;
+    }
+
+.sentenceOutline{
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px black solid;
+  padding: 20px;
+  padding-bottom: 25px;
+  outline-offset: -15px;
+  border-radius: 25px;
+  max-width: 60%;
+}
+
+.altBold{
+  font-weight: bold;
+}
+
+.groupAlert{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomButtons{
+  padding: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.confirmationText{
+  text-align: center;
+  font-weight: bold;
+  padding: 90px;
+  font-size: 20px;
+}
+
+.gap {
+  height: 25px;
+}
+
+.btn-groupAlert {
+  background-color: white;
+  margin-bottom: 28px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  box-shadow: 2px 3px 2px lightgray;
+}
+
+.returnToEdit{
+  font-weight: bold;
+  box-shadow: 2px 3px 2px lightgray;
+}
+
+.reviewNewAlert p{
+  padding: 10px;
+}
+
+.reviewScreenAltercation {
+  background-color: white;
+  color: black;
+  border: none;
+  height: 66px;
+  width: 66px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.confirmationText{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-bottom: 7%;
+}
+
+.alertCard-title {
+  padding: 15px;
+}
+
+.returnToHomeFive{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+  background-color: #487A6C;
+  text-shadow: #050505;
+  border: none;
+  padding: 10px;
+  width: 221px;
+  margin-top: 75px;
+  margin-bottom: 30px;
+  box-shadow: 2px 3px 2px lightgray;
+}
+
+@media only screen and (max-width:600px) {
+  .card {
+    max-width: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10pt;
+  }
+
+  .display-5 {
+    font-size: 20pt;
+  }
+
+  .linkButtons p {
+    font-size: 10pt;
+  }
+  .createNew {
+    font-size: 20pt;
+  }
+
+  .newAlertWindow {
+    max-width: 90%;
+  }
+
+  .alertDetails select {
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    border-radius: 8px;
+  }
+
+  .confirmationText {
+    font-size: 16px;
+  }
+
+  .sallyBelly img {
+    max-width: 80%;
+  }
+
+  .alertDetails .display-5 {
+    font-size: 16pt;
+  }
+
+  .existingAlertsImage {
+  text-align: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  }
+
+  .unreadNotifications p {
+    font-size: 12pt;
+  }
+
+  .existingAlerts p {
+   font-size: 12pt;
+  }
+
+  .sentenceOutline{
+    max-width: 90%;
+  }
+
+  .alertCard {
+    max-width: 85%;
+  }
+
+  .groupAlert {
+    padding: 0%;
+  }
+
+}

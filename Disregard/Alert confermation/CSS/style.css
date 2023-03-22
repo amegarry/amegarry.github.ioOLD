@@ -1,0 +1,41 @@
+
+.fontfont-family{: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;}
+
+
+
+/* CSS Centering Code with the Universal Selector "*" */ 
+
+* {
+
+    text-align: center;
+    
+    }
+    
+    /*Alternative CSS Centering Code with the "body" Selector*/
+    
+    body {
+    
+    text-align: margin: auto;
+    width: 670px;
+    padding: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #2E475D;
+    
+    }
+    
+    /* Styling */
+    
+    body {
+        text-align: margin: auto;
+    width: 670px;
+    padding: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #2E475D;
+    
+           }
+ 

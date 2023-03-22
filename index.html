@@ -1,97 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <title>Ali Megarry</title>
-    </head>
-    <body>
-        <header>
-            <!--Div container with logo image-->
-            <div class="logo inline-block">
-                <img src="images/logo.png">
-            </div>
-            <!--Main menu navigation-->
-            <nav class="inline-block">
-                <!--Content inside navigation bar-->
-                <ul>
-                    <li class="inline-block">about</li>
-                    <li class="inline-block">skills</li>
-                    <li class="inline-block">work</li>
-                    <li class="inline-block">contact</li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!--Image and about-->
-        <section class="heroImg">
-            <div class="content">
-                <img src="images/me.jpg" width="275" height="400">
-                <p>My name is Ali Megarry, a junior UX/UI designer based in the greater Minneapolis area of Minnesota. I will complete the University of Minnesota UX/UI Design Bootcamp in March 2023 and am seeking opportunities to begin contributing ideas for user-first experiences and various design styles.</p>
-                <button>Download Resume</button>
-            </div>
-        </section>
-        
-        <!--Skills section-->
-        <h1 class="heading">UX Skills</h1>
-        <section class="mySkills">
-            <div class="flexContainer">
-                <div>
-                    <img src="images/uxResearch.png">
-                    <h3>User Research</h3>
-                    <p>Gathering and synthesizing qualitative and quantitative data.</p>
-                </div>
-                <div>
-                    <img src="images/uxDesign.png">
-                    <h3>User Experience Design</h3>
-                    <p>Applying research insights to design, conducting usability testing.</p>
-                </div>
-                <div>
-                    <img src="images/ixDesign.png">
-                    <h3>Interaction Design</h3>
-                    <p>Applying visual design concepts to interactions to enhance usability and user experience.</p>
-                </div>
-            </div>
-        </section>
-        
-        <!--Work section-->
-        <section class="myWork">
-            <h1 class="heading">Work</h1>
-            <div class="workGrid">
-                <div class="tranquilListImg">
-                    <img src="images/tranquilList.png">
-                </div>
-                <div class="tranquilListCaseStudy">
-                    <h4>TranquilList Mobile App</h4>
-                    <p>A planning app that factors users' mental health into the schedules they create.</p>
-                    <button>View</button>
-                </div>
-                <div class="mnDVSImg">
-                    <img src="images/mnDVS.png">
-                </div>
-                <div class="mnDVSCaseStudy">
-                    <h4>MN Driver and Vehicle Services UI Redesign</h4>
-                    <p>A UI redesign of the Minnesota Driver and Vehicle Services licensing information website.</p>
-                    <button>View</button>
-                </div>
-                <div class="tripJarImg">
-                    <img src="images/tripJar.png">
-                </div>
-                <div class="tripJarCaseStudy">
-                    <h4>TRIP Jar Mobile App</h4>
-                    <p>A travel planning app to track plans and save money on your next trip.</p>
-                    <button>View</button>
-                </div>
-            </div>
-        </section>
-        
-        <footer>
-            <!--Content inside footer navigation bar-->
-            <ul>
-                <li class="inline-block">about</li>
-                <li class="inline-block">skills</li>
-                <li class="inline-block">work</li>
-                <li class="inline-block">contact</li>
-            </ul>
-        </footer>
-    </body>
-</html>
+  <head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Boostrap CSS reference-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <header>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <img src="Images/Notifications - Unread.svg">
+          <h2 class="display-5">Buchanan Middle School</h2>
+          <img src="images/menu icon.svg">
+        </div>
+      </div>
+    </header>
+    <title>Class Track</title>
+  </head>
+  <body>
+    <script src="JS/index.js"></script>
+    <section class="homePageContent">
+      <p class="welcome">Welcome, Felin Kale</p>
+      <div class="schoolNews">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">School News</h5>
+            <p class="card-text"><b>• Maintenance:</b> Gymnasium B closed until 3:00 PM</p>
+            <p class="card-text"><b>• Conferences:</b> New dates: 4/1/23 - 4/2/23</p>
+            <p class="card-text"><b>•Assembly:</b> Mandatory safety assembly at 4:00 PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="linkButtons">
+        <div class="buttonGroup1">
+          <div class="linkNotifications">
+            <button onclick="document.location='notifications.html'">
+              <img src="Images/envelope_white_unread.png">
+            </button>
+            <p><b>Notifications</b></p>
+          </div>
+          <div class="linkCreateAlert">
+            <button onclick="document.location='createAlert.html'">
+              <img src="Images/exclamation.png">
+            </button>
+            <p><b>Create New Alert</b></p>
+          </div>
+        </div>
+        <div class="buttonGroup2">
+          <div class="linkAttendance">
+            <button>
+              <img src="Images/checklist.png">
+            </button>
+            <p><b>Attendance</b></p>
+          </div>
+          <div class=linkGradebook>
+            <button>
+              <img src="Images/book.png">
+            </button>
+            <p><b>Gradebook</b></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </html>
